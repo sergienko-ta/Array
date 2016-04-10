@@ -75,9 +75,9 @@ public final class Bootstrap {
         GenericUtilities.printArray(strList);
         System.out.println(" ");
 
-    }
 
- /*         int result1 = 0;
+
+          int result1 = 0;
           try {
               result1 = getAreaValue(-1, VALUE2 * VALUE2);
               System.out.println(result1);
@@ -94,5 +94,5 @@ public final class Bootstrap {
         }
         return x * y;
     }
-    */
+
 }
