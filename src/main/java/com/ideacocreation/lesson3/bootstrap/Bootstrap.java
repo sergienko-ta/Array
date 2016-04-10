@@ -85,8 +85,9 @@ public final class Bootstrap {
           catch (IllegalArgumentException e) {
               throw new MyException(e);
           }
-
       }
+
+
 
     private static int getAreaValue(final int x, final int y) {
         if (x < 0 || y < 0) {
