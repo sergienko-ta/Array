@@ -5,16 +5,16 @@ package com.ideacocreation.lesson3.my_interface;
  * @param <T>
  */
 
-public interface IMyInterface <T> {
+public interface IArrayInterface<T> {
     /**
      * Getter
      * @return return value
      */
-    T getValue();
+    T[] getArray();
 
     /**
      * Setter
-     * @param value incoming arg
+     * @param array incoming arg
      */
-    void setValue(final T value);
+    void setArray(final T[] array);
 }
